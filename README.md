@@ -27,8 +27,9 @@ All functions return ```false, error_string``` on error, which means you might h
 Grab binaries from Downloads tab, dump them into garrysmod/lua/bin, call ```require("gaceio")``` and have fun.
 
 ## Compilation
-Included are 32 and 64 bit versions of [Garry's Bootil][https://github.com/garrynewman/bootil], just remove the "_x86" or "_64" before building, or if those don't work, build it yourself.
+Included are 32 and 64 bit versions of [Garry's Bootil][2], just remove the "_x86" or "_64" before building, or if those don't work, build it yourself.
 
 This project requires [garrysmod_common][1], a framework to facilitate the creation of compilations files (Visual Studio, make, XCode, etc). Simply set the environment variable '**GARRYSMOD\_COMMON**' or the premake option '**gmcommon**' to the path of your local copy of [garrysmod_common][1].
 
   [1]: https://github.com/danielga/garrysmod_common
+  [2]: https://github.com/garrynewman/bootil
